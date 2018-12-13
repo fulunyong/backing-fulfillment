@@ -1,0 +1,39 @@
+box: golang
+
+dev:
+  steps:
+    - setup-go-workspace:
+        package-dir: github.com/leeningli/backing-fulfillment
+
+    - internal/watch:
+        code: go run main.go
+        reload: true
+
+build:
+  steps:
+    - setup-go-workspace:
+        package-dir: github.com/leeningli/backing-fulfillment
+    - script:
+        name: go test
+        code: |
+          cd service;go test  -v -run ^TestGetFullfillmentStatusReturns299ForExistingSKU$
+    - script:
+        name: go build
+        code: |
+          go build -o backing-fulfillment main.go
+    - script:
+        name: copy files to wercker output
+        code: |
+          cp -R ./backing-fulfillment /pipeline/source
+
+deploy:
+  steps:
+    - internal/docker-push:
+        username: $USERNAME
+        password: $PASSWORD
+        cmd: /pipeline/source/backing-fulfillment
+        port: "8080"
+        tag: v1
+        repository: leeingli/backing-fulfillment
+
+
