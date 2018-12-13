@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "XWPESS+dWxIEcP3cZ95hUB03MDs=",
+			"path": "github.com/unrolled/render",
+			"revision": "4c664cb3ad2f9856d1debd49977df56221ab45a9",
+			"revisionTime": "2018-12-10T14:55:18Z"
+		}
+	],
+	"rootPath": "github.com/leeningli/backing-fulfillment"
+}
