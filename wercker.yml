@@ -34,6 +34,6 @@ deploy:
         cmd: /pipeline/source/backing-fulfillment
         port: "8080"
         tag: v20181213
-        repository: leeingli/backing-fulfillment
+        repository: leeing227/backing-fulfillment
 
 
