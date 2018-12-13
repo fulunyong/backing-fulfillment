@@ -3,6 +3,18 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "vEykhfQL3Yt8t1n4cxcUfQDOItw=",
+			"path": "github.com/codegangsta/negroni",
+			"revision": "7183f09c600e83777e78b44b39fcccab3b8c0dad",
+			"revisionTime": "2018-12-01T10:46:32Z"
+		},
+		{
+			"checksumSHA1": "l1YNkb6/66PSOUhUDgzphOd7Z3Y=",
+			"path": "github.com/gorilla/mux",
+			"revision": "d2b5d13b9260193b5a5649e9f47fda645bd2bd1d",
+			"revisionTime": "2018-12-08T20:40:53Z"
+		},
+		{
 			"checksumSHA1": "XWPESS+dWxIEcP3cZ95hUB03MDs=",
 			"path": "github.com/unrolled/render",
 			"revision": "4c664cb3ad2f9856d1debd49977df56221ab45a9",
