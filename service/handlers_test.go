@@ -46,7 +46,7 @@ func TestGetFullfillmentStatusReturns299ForExistingSKU(t *testing.T) {
 	if detail.ShipsWithin != 14 {
 		t.Errorf("Expected shipswithin 14 days, got %d", detail.ShipsWithin)
 	}
-	if detail.SKU != "THINGAMAJIG12" {
+	if detail.SKU != "THINGMAJIG12" {
 		t.Errorf("Expected SKU THINGAMAJIG12, got %s", detail.SKU)
 	}
 }
