@@ -3,6 +3,12 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "VANlSGxOIkPuvF3dz1oRyt+bDBc=",
+			"path": "github.com/Unknwon/goconfig",
+			"revision": "56bd8ab186196b5203e3b8e17057a04a65153003",
+			"revisionTime": "2018-11-05T21:41:10Z"
+		},
+		{
 			"checksumSHA1": "2nTxrtvUecg8v33ZkjIFiUxfUI8=",
 			"path": "github.com/cenkalti/backoff",
 			"revision": "62661b46c4093e2c1f38d943e663db1a29873e80",
