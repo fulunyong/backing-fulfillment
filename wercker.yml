@@ -33,7 +33,7 @@ deploy:
         password: $PASSWORD
         cmd: /pipeline/source/backing-fulfillment
         port: "8080"
-        tag: v1
+        tag: v20181213
         repository: leeingli/backing-fulfillment
 
 
