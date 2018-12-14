@@ -26,7 +26,7 @@ func main() {
 	i := fargo.Instance{
 		HostName:         "lee",
 		Port:             intPort,
-		App:              "TestEurekaApp",
+		App:              "BackingFulfillmentApp",
 		IPAddr:           "127.0.0.1",
 		VipAddress:       "127.0.0.1",
 		SecureVipAddress: "127.0.0.1",
