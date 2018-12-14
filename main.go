@@ -38,7 +38,7 @@ func main() {
 	for key, theApp := range f {
 		fmt.Println("App:", key, "First Host Name:", theApp.Instances[0].HostName)
 	}
-	app, _ := c.GetApp("TestEurekaApp")
+	app, _ := c.GetApp("BackingFulfillmentApp")
 	fmt.Printf("my app info is %v\n", app)
 }
 
